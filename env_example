@@ -1,0 +1,6 @@
+# change this file adding your data and renaming it .env
+
+# Database
+DB_HOST =
+DB_USER =
+DB_PASSWORD =

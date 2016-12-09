@@ -1,0 +1,19 @@
+{
+  parser: "babel-eslint",
+  "extends": [
+    "airbnb",
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+  },
+  "plugins": [
+    "react",
+  ],
+  "globals": {
+    "document": true,
+  },
+  "rules": {
+    "global-require" : "off",
+    "import/no-extraneous-dependencies" : "off",
+  },
+}
