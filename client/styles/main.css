@@ -8,6 +8,10 @@
  * You can also use your own loader by modifying the setting in webpack.config.js
  *
  */
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 h1 {
   color: #2196F3;
 }

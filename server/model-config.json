@@ -33,7 +33,7 @@
     "public": false
   },
   "Example": {
-    "dataSource": null,
+    "dataSource": "db",
     "public": true
   }
 }

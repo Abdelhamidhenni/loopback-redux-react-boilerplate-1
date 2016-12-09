@@ -1,10 +1,14 @@
 import React, { PropTypes } from 'react';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import '../styles/main.css';
 
+injectTapEventPlugin();
+
 const App = ({ children }) =>
-  <div>
+  <MuiThemeProvider>
     { children }
-  </div>;
+  </MuiThemeProvider>;
 
 /* eslint-disable react/forbid-prop-types */
 App.propTypes = {

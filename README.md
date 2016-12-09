@@ -12,11 +12,12 @@ Inspired by:
 - Loopback
 - Webpack
 - Babel (ES2015 and React)
-- ESLint (AirBnB)
+- ESLint (Airbnb codestyle)
 - Helmet
 - Redux DevTools
 - Hot reloading
 - Dotenv
+- Material-UI
 
 ### Get Started
 - **Clone this repository**

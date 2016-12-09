@@ -1,8 +1,7 @@
 import React from 'react';
+import RaisedButton from 'material-ui/RaisedButton';
 
 const Main = () =>
-  <h1>
-    Hello World
-  </h1>;
+  <RaisedButton label="Hello World" />;
 
 export default Main;
